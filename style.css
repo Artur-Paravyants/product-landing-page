@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    background-color: #6B6E70;
+    color: white;
+}
+
+.header {
+    background-color: #222629;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+a {
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+/*#feature-element {
+
+}
+
+*/
+
+/*
+#banner-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    
+}
+*/
+
+
+
+.banner-img {
+    filter: brightness(50%);
+    background: url("https://cdn.pixabay.com/photo/2017/02/03/22/38/pocket-watch-2036304_1280.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.banner-text {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    font-size: 50px;
+    font-family: Copperplate;
+    color: white;
+    filter: brightness(100%);
+    
+}
+
+
