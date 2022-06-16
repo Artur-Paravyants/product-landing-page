@@ -1,12 +1,12 @@
 
 body {
     margin: 0;
-    background-color: #6B6E70;
+    background-color: #222629;
     color: white;
 }
 
 .header {
-    background-color: #222629;
+    background-color: #474B4F;
     display: flex;
     justify-content: flex-end;
     height: 80px;
@@ -21,23 +21,17 @@ a {
     flex-direction: column;
 }
 
-/*#feature-element {
 
-}
 
-*/
 
-/*
 #banner-container {
-    display: flex;
-    justify-content: center;
     position: relative;
     text-align: center;
     color: white;
     
     
 }
-*/
+
 
 
 
@@ -50,15 +44,23 @@ a {
 }
 
 .banner-text {
-    display: flex;
     position: absolute;
-    justify-content: center;
     top: 50%;
+    left: 28%;
     font-size: 50px;
     font-family: Copperplate;
     color: white;
     filter: brightness(100%);
-    
 }
 
+/* #222629, #61892F */
 
+.feature-element {
+    background-image: linear-gradient(#222629, #61892F );
+    margin: 10px 25px 0px 25px;
+    border-radius: 5px;
+    padding: 20px;
+    border-color: black;
+    border-style: inset;
+
+}
