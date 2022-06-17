@@ -58,10 +58,32 @@ a {
 
 .feature-element {
     background-image: linear-gradient(#222629, #61892F );
-    margin: 10px 25px 0px 25px;
+    margin: 10px 25px 10px 25px;
     border-radius: 5px;
     padding: 20px;
     border-color: black;
     border-style: inset;
 
+}
+
+.watch-models {
+    background-color: black;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #474B4F;
+    padding: 20px;
+}
+
+.email-div {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }
