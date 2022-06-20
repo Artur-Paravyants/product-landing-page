@@ -67,15 +67,23 @@ a {
 }
 
 .watch-models {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-bet;
     background-color: black;
     padding: 20px;
 }
 
 form {
     display: flex;
-    flex-direction: column;
     background-color: #474B4F;
     padding: 20px;
+}
+
+img {
+    height: auto;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 .email-div {
@@ -86,4 +94,8 @@ form {
 h2 {
     display: flex;
     justify-content: center;
+}
+
+.model {
+    width: calc(100%/3);
 }
