@@ -8,6 +8,8 @@ body {
 .header {
     background-color: #474B4F;
     height: 80px;
+
+
 	
 }
 
@@ -15,6 +17,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 10px 10px;
+
 
 }
 
@@ -35,7 +38,17 @@ a {
 }
 
 
+#video-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
+
+
+.vid-txt-1 {
+    
+}
 
 #banner-container {
     position: relative;
